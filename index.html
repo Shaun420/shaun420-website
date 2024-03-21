@@ -7,7 +7,7 @@
 <meta name="description" content="Website of a freelance developer.">
 <meta name="author" content="Shaun420">
 <link rel="shortcut icon" type="image/png" href="logo.png">
-<link rel="stylesheet" async="" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 <style>
 		/* cyrillic-ext */
 		@font-face {
@@ -82,10 +82,6 @@
 			-o-user-select: none;
 			user-select: none;
 		}
-		.fa, .fab, .fas, .far, .fad
-		{
-			color: #000;
-		}
 		.gBody
 		{
 			height: 100%;
@@ -142,6 +138,7 @@
 		}
 		.responsiveIcon
 		{
+			color:#a7a7a7;
 			pointer-events: all;
 			font-size: 8vw;
 		}
@@ -201,20 +198,12 @@
 		{
 			text-align: center;
 		}
-		.responsiveLink
-		{
+		a {
 			pointer-events: all;
-			font-size: 2vw;
-			color: #1b9a1b;
-			text-decoration: none;
-		}
-		.responsiveLink:hover
-		{
-			text-decoration: underline;
+			user-select: auto;
 		}
 		.responsiveSmallLink
 		{
-			pointer-events: all;
 			color: #1b9a1b;
 			text-decoration: none;
 		}
@@ -243,12 +232,9 @@
 				color:rgb(190, 190, 190);
 				background-color:#202020;
 			}
-			.fa, .fab, .fas, .far, .fad
-			{
-				color:rgb(190, 190, 190);
-			}
 			.responsiveImage
 			{
+				color:rgb(190, 190, 190);
 				filter: brightness(0.8) contrast(1.2);
 			}
 			.heartIcon {
@@ -258,20 +244,23 @@
 	</style>
 </head>
 <body class="gBody">
-<div class="gLanding light-grey center round-large">
-<div class="gAvatar"><span class="elementNoInteract responsiveImage"></span></div>
-<div class="gBadge"><h2 class="gTitle">Shaun420</h2><span class="gSubtitle">Freelance Developer</span></div>
+	<div class="gLanding light-grey center round-large">
+	<div class="gAvatar"><span class="elementNoInteract responsiveImage"></span></div>
+	<div class="gBadge"><h2 class="gTitle">Shaun420</h2><span class="gSubtitle">Freelance Developer</span></div>
+	<div class="gLinksBlock">
+		<span class="responsiveLargeText">You can find me here:</span>
+		<ul class="gLinksList">
+			<li><a role="link" class="responsiveIcon" rel="external noreferrer" target="_blank" title="GitHub" href="https://github.com/Shaun420"><i class='bx bxl-github'></i></a></li>
+			<li><a role="link" class="responsiveIcon" rel="external noreferrer" target="_blank" title="Twitter" href="https://twitter.com/Shaun4201"><i class="bx bxl-twitter"></i></a></li>
+			<li><a role="link" class="responsiveIcon" rel="external noreferrer" target="_blank" title="Reddit" href="https://www.reddit.com/user/dB_420"><i class="bx bxl-reddit"></i></a></li>
+		</ul>
+	</div>
 
+	<div class="gCreditBlock">
+		<span>Icons library: <a role="link" class="responsiveSmallLink" rel="external noreferrer" target="_blank" title="Boxicons" href="https://boxicons.com">Boxicons</a>.</span>
+		<span>Font used is <a rel="external noreferrer" href="https://fonts.google.com/specimen/Open+Sans" target="_blank" class="responsiveSmallLink">Open Sans</a> licensed under Apache License 2.0 available on Google Fonts.</span>
+	</div>
+</div>
 
-<div class="gLinksBlock"><span class="responsiveLargeText">You can find me here:</span><ul class="gLinksList">
-<li><a role="link" class="responsiveIcon" rel="external noreferrer" target="_blank" title="GitHub" href="https://github.com/Shaun420"><i class="fab fa-github"></i></a></li>
-<li><a role="link" class="responsiveIcon" rel="external noreferrer" target="_blank" title="Twitter" href="https://twitter.com/Shaun4201"><i class="fab fa-twitter"></i></a></li>
-<li><a role="link" class="responsiveIcon" rel="external noreferrer" target="_blank" title="Reddit" href="https://www.reddit.com/user/dB_420"><i class="fab fa-reddit"></i></a></li>
-</ul></div>
-
-<div class="gCreditBlock">
-	<span>Icons provided by FontAwesome.</span>
-	<span>Font used is <a rel="external noreferrer" href="https://fonts.google.com/specimen/Open+Sans" target="_blank" class="responsiveSmallLink">Open Sans</a> licensed under Apache License 2.0 available on Google Fonts.</span>
-</div></div>
-
-</body><style type="text/css"></style><style type="text/css"></style></html>
+</body>
+</html>
