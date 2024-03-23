@@ -1,4 +1,4 @@
-# sbaun420-live Website Source code
+# shaun420-live Website Source code
 Hopefully someone finds this useful. 
 
 Website source code ("index.html") is licensed under Mozilla Public License v2.0 ("LICENSE") and is subject to the terms of the LICENSE.
