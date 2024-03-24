@@ -242,13 +242,13 @@ a {
 		width: 128px;
 		height: 128px;
 		font-size: 128px;
-		padding: 0;
+		padding: 1vw 0;
 	}
 	.responsiveLargeText {
 		font-size: 32px;
 	}
 	.gCreditBlock {
-		font-size: 22px;
+		font-size: 18px;
 	}
 	.gTitle {
 		font-size: 52px;
@@ -258,12 +258,12 @@ a {
 	}
 	.gLinksList {
 		flex-flow: wrap row;
-		margin: 2vw;
+		margin: 0 1vw 1vw 1vw;
 	}
 	.gLinksList li {
 		justify-content: center;
 		text-align: center;
 		flex-flow: wrap column;
+		width: 33%;
 	}
-	.
 }
