@@ -84,14 +84,16 @@
 	background-size: cover;
 	-webkit-background-size: 100%;
 }
-.gLanding
-{
-	height: 100%;
-	padding: 3%;
+.gLanding {
 	display: flex;
+	padding: 3%;
+	width: 94%;
+	max-width: 94%;
+	height: 100%;
 	flex-flow: wrap column;
 	justify-content: center;
 	align-content: center;
+	background-color:#e6e6e6;
 }
 .gTitle
 {
@@ -113,8 +115,8 @@
 {
 	display: inline-block;
 	margin-top: 2vw;
-	height: 15vw;
-	width: 15vw;
+	height: 20vw;
+	width: 20vw;
 	min-width: 64px;
 	min-height: 64px;
 	max-width: 200px;
@@ -125,18 +127,22 @@
 	background-size: contain;
 	background-image: url("avatar.webp");
 }
-.responsiveIcon
-{
-	color:#a7a7a7;
+.responsiveIcon {
+	color:#4c8e75;
 	pointer-events: all;
-	font-size: 8vw;
+	font-size: 20vw;
+	display: block;
+	height: 25vw;
+	padding-right: 5vw;
 }
 .gCreditBlock {
 	display: flex;
 	flex-flow: wrap column;
 	justify-content: center;
-	align-content: center;
-	padding: 1vw 0 0 0;
+	align-items: flex-start;
+	padding: 2vw 1vw 0 1vw;
+	font-size: 3.5vw;
+	text-align: left;
 }
 .gAvatar {
 	display: flex;
@@ -144,7 +150,6 @@
 	justify-content: center;
 	align-content: center;
 }
-
 .gBadge {
 	display: flex;
 	flex-flow: wrap column;
@@ -156,16 +161,23 @@
 	flex-flow: wrap column;
 	justify-content: center;
 	align-content: center;
+	width: 100%;
 }
-.gLinksList
-{
-	padding: 0 5vw;
+.gLinksList {
+	display: flex;
+	justify-content: center;
+	margin: 2vw 0 2vw 4vw;
+	align-items: flex-start;
+	flex-flow: wrap column;
+	padding: 0;
 }
-.gLinksList li
-{
+
+.gLinksList li {
 	list-style-type: none;
-	display: inline-block;
-	width: 25%;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	text-align: left;
 }
 .gLinksList li a i:hover
 {
@@ -174,10 +186,6 @@
 .responsiveLargeText
 {
 	font-size: 5vw;
-}
-.light-grey
-{
-	background-color:#f1f1f1;
 }
 .round-large
 {
@@ -216,8 +224,7 @@ a {
 		background: -webkit-linear-gradient(135deg, rgba(12,187,71,1) 0%, rgba(0,137,162,1) 100%);
 		background: linear-gradient(135deg, rgba(12,187,71,1) 0%, rgba(0,137,162,1) 100%);
 	}
-	.gLanding
-	{
+	.gLanding {
 		color:rgb(190, 190, 190);
 		background-color:#202020;
 	}
@@ -229,4 +236,34 @@ a {
 	.heartIcon {
 		color: #CF352C;
 	}
+}
+@media screen and (min-width: 640px) {
+	.responsiveIcon {
+		width: 128px;
+		height: 128px;
+		font-size: 128px;
+		padding: 0;
+	}
+	.responsiveLargeText {
+		font-size: 32px;
+	}
+	.gCreditBlock {
+		font-size: 22px;
+	}
+	.gTitle {
+		font-size: 52px;
+	}
+	.gSubtitle {
+		font-size: 32px;
+	}
+	.gLinksList {
+		flex-flow: wrap row;
+		margin: 2vw;
+	}
+	.gLinksList li {
+		justify-content: center;
+		text-align: center;
+		flex-flow: wrap column;
+	}
+	.
 }
