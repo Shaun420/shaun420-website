@@ -125,7 +125,7 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
-	background-image: url("avatar.webp");
+	background-image: url("assets/avatar.webp");
 }
 .responsiveIcon {
 	color:#4c8e75;
