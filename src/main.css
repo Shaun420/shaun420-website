@@ -178,6 +178,7 @@
 	align-items: center;
 	justify-content: left;
 	text-align: left;
+	font-size: 3.5vw;
 }
 .gLinksList li a i:hover
 {
@@ -240,7 +241,7 @@ a {
 @media screen and (min-width: 640px) {
 	.responsiveIcon {
 		width: 128px;
-		height: 128px;
+		height: 145px;
 		font-size: 128px;
 		padding: 1vw 0;
 	}
@@ -265,5 +266,6 @@ a {
 		text-align: center;
 		flex-flow: wrap column;
 		width: 33%;
+		font-size: 16px;
 	}
 }
